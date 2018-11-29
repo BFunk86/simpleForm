@@ -1,6 +1,6 @@
 (function () {
 
-    var url = "http://fakeurl.com";
+    var url = "http://programmingtheweb.com";
 
     /* HELPER METHODS */
 
