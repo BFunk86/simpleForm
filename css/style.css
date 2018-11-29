@@ -48,7 +48,7 @@ button:focus, button.focus {
     box-shadow: 0 0 0 0.2rem rgba(239, 65, 53, 0.5);
 }
 
-.container {
+.form-container {
     max-width: 50%;
     margin: auto;
     background-color: #f8f5f0;
