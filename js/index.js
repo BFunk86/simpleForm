@@ -1,4 +1,4 @@
-(function (window) {
+(function () {
 
     var url = "http://fakeurl.com";
 

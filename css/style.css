@@ -43,11 +43,6 @@ button:hover {
     border-color: #de3e35;
 }
 
-button:focus, button.focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(239, 65, 53, 0.5);
-}
-
 .form-container {
     max-width: 50%;
     margin: auto;
@@ -106,7 +101,7 @@ option {
     display: block;
     white-space: pre;
     min-height: 1.2em;
-    padding: 0px 2px 1px;
+    padding: 0 2px 1px;
 }
 
 .question-container {
