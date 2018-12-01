@@ -32,8 +32,12 @@
      * @param event: The input event passed to the callback
      */
     var phoneInput = function (event) {
+        var keyId = event.keyCode || event.which;
         var phoneInput = $('#phone');
-        phoneInput.val(maskPhoneInput(phoneInput.val()));
+        // Ignore
+        if(keyId !== 8 && keyId !== 46) {
+            phoneInput.val(maskPhoneInput(phoneInput.val()));
+        }
     };
 
     /**
